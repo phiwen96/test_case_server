@@ -2,8 +2,6 @@
 
 
 
-static_assert (String <std::string>, "");
-//static_assert (String <std::string const&>, "");
 
 auto test (String auto&& s)
 {
