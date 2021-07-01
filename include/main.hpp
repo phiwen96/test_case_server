@@ -6,6 +6,7 @@
 #include <arpa/inet.h>
 #include <ph_network/network.hpp>
 #include <boost/asio.hpp>
+#include <ph_network/common.hpp>
 
 using namespace boost::asio;
 using namespace boost::asio::ip;
