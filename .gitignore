@@ -1,4 +1,7 @@
 *build*
+
+Makefile
+*.cmake
 .vscode
 .DS_Store
 *.sh

@@ -1,0 +1,8 @@
+digraph "test_case_server" {
+node [
+  fontsize = "12"
+];
+    "node1" [ label = "test_case_server", shape = egg ];
+    "node0" [ label = "ph_network\n(ph::network)", shape = octagon ];
+    "node1" -> "node0" [ style = dotted ] // test_case_server -> ph_network
+}

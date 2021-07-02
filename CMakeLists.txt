@@ -11,3 +11,8 @@ endif ()
 find_package (Boost 1.75 REQUIRED)
 
 add_subdirectory(src)
+
+
+add_custom_target(graphviz ALL
+                  "${CMAKE_COMMAND}" "--graphviz=foo" .
+                  WORKING_DIRECTORY "${CMAKE_BINARY_DIR}")
